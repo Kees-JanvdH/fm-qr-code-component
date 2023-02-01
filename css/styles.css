@@ -24,18 +24,19 @@ p {
 }
 
 .qr-parent {
-    margin: 0;
-    padding: 140px 0;
+       
 }
 
 .qrcode-box {
-   position: relative;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
    background-color: hsl(0, 0%, 100%);
    width: 260px;
    height: 400px;
    padding-top: 10px;
    border-radius: 10px;
-   margin: auto;
    text-align: center;
 }
 
@@ -46,10 +47,11 @@ p {
 
 .attribution { 
     font-size: 11px; text-align: center;
-    padding-top: 10px;
+    margin-top: 30px;
 }
 
 a {
     color: hsl(228, 45%, 44%);
     margin: 0;
+    padding: 0;
 }
