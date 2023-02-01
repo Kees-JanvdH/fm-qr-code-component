@@ -1,6 +1,8 @@
+/* font-family: 'Outfit', sans-serif; */
+
 body {
     margin: 0;
-    
+    background-color: hsl(212, 45%, 89%);    
 }
 
 h3 {
@@ -22,7 +24,6 @@ p {
 }
 
 .qr-parent {
-    background-color: hsl(212, 45%, 89%);
     margin: 0;
     padding: 140px 0;
 }
@@ -43,10 +44,12 @@ p {
     border-radius: 10px;
 }
 
+.attribution { 
+    font-size: 11px; text-align: center;
+}
 
-
-/* font-family: 'Outfit', sans-serif; */
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+a {
+    color: hsl(228, 45%, 44%);
+    margin: 0;
+    padding: 0;
+}
