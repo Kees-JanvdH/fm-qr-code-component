@@ -46,10 +46,10 @@ p {
 
 .attribution { 
     font-size: 11px; text-align: center;
+    padding-top: 10px;
 }
 
 a {
     color: hsl(228, 45%, 44%);
     margin: 0;
-    padding: 0;
 }
